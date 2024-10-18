@@ -1,0 +1,24 @@
+1)	How to purchase domain?
+
+ Visit GoDaddy’s Website
+
+ Search for a Domain:
+•	Use the search bar on the homepage to enter your desired domain name. Click on the search icon or press Enter to check if the domain is available.
+ Choose Your Domain:
+•	If your desired domain is available, it will appear in the search results. You can select it by clicking the "Add to Cart" button. If the domain you want is not available, GoDaddy will suggest alternative names or variations.
+ Review and Customize:
+•	After adding the domain to your cart, you may be prompted to choose additional services like privacy protection, email hosting, or website builders. These are optional but can be useful depending on your needs.
+ View Your Cart:
+•	Click on the cart icon (usually at the top right corner of the page) to review your selection. Ensure you’re happy with the domain and any additional services you’ve chosen.
+Sign In or Create an Account:
+•	If you’re not already signed in, you’ll be prompted to log in to your GoDaddy account or create a new one. You need an account to complete the purchase.
+Enter Payment Information:
+•	Provide your payment details. GoDaddy accepts various payment methods including credit cards and PayPal.
+
+ Complete the Purchase:
+•	Review your order one last time. If everything looks correct, proceed by clicking the "Checkout" or "Complete Purchase" button.
+Confirm Your Domain:
+•	After purchase, you’ll receive a confirmation email. Follow any instructions provided to complete the domain registration process, which may include verifying your email address.
+ Manage Your Domain:
+•	Once purchased, you can manage your domain through your GoDaddy account dashboard. Here you can set up domain forwarding, adjust DNS settings, or renew your domain when it’s about to expire.
+
