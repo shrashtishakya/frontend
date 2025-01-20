@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        .report{
+            justifiy-content:center;
+            padding:10px;
+            backgraund-color:orange;
+        }
+        button{
+            color:blueviolet;
+        }
+        button:hover{
+            color:chocolate;
+            background-color:white;
+        }
+        input{
+            width:400px;
+            padding:10px;
+            border-radius:7px 7px 7px 7px;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="report">
+      <h2> Marks</h2>
+      <form onsubmit="return result()">
+        English:<br><br>
+        <input type="number" class="form-control" id="english" placeholder="Enter English Marks" name="english" required min="0" max="100">
+        Hindi:<br><br>
+        <input type="number" class="form-control" id="hindi" placeholder="Enter hindi Marks" name="hindi" required min="0" max="100">
+        Gujrati:<br><br>
+        <input type="number" class="form-control" id="gujarati" placeholder="Enter gujarati Marks" name="gujarati" required min="0" max="100">
+        <button> submit</button>
+       </form>
+   </div> 
+   
+   <br>
+     <br>
+
+     <h1 id="total"></h1>
+     <br>
+     <br>
+     <h1 id="per"></h1>
+     <br>
+     <br>
+     <h1 id="grade"></h1>
+     
+      <script>
+         function result()
+         {
+            var english=document.getElementById("english").value;
+            var english=document.getElementById("hindi").value;
+            var english=document.getElementById("gujrati").value;
+            
+            var total=+english + +hindi + +gujrati;
+            document.getElementById('total').innerText="total is:"+total;
+
+            var per=(total*100)/300;
+            document.getElementById('per').innerText="per:"+per+"%";
+
+            if(per>90)
+         {
+            document.getElementById('grade').innerText="grade is:A";
+            document.getElementById('grade').style.color="green";
+         }
+         else if(per>70)
+         {
+            document.getElementById('grade').innerText="grade is:B";
+            document.getElementById('grade').style.color="green";
+         }
+         else if(per>50)
+         {
+            document.getElementById('grade').innerText="grade is:C";
+            document.getElementById('grade').style.color="green"; 
+         }
+         else
+         {
+            document.getElementById('grade').innerText="grade is:Fail";
+            document.getElementById('grade').style.color="red"; 
+         }
+         return false;
+         }
+
+      </script>
+   </br>
+</body>
+</html>
