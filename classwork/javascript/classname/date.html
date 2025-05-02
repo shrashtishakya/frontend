@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+               var today = new Date();
+
+          document.write(today +"<br>");
+
+          document.write((today.getDate()) + "/" + (today.getMonth()+1) + "/" + (today.getFullYear()) + "<br>")
+
+          document.write((today.getHours()) + ":" + (today.getMinutes()) + ":" + (today.getSeconds()) + "<br>")
+    </script>
+
+    <hr>
+
+    <script>
+          document.write(today.toLocaleDateString() + "<br>");
+
+          document.write(today.toLocaleTimeString() + "<br>");
+
+         document.write(today.toLocaleString() + "<br>");
+
+          document.write(today.toDateString() + "<br>");
+
+    </script>
+
+   <hr>
+
+      <script>
+        document.write(today +"<br>");
+
+        today.setDate(27)
+        today.setMonth(0)
+        today.setFullYear(2024)
+
+        document.write( today +"<br>");
+
+     </script>
+</body>
+</html>
